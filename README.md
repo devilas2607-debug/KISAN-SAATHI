@@ -84,3 +84,91 @@ The platform digitally connects:
       ├──────────────► 🏪 MANDI OPERATORS
       │
       └──────────────► 📊 ADMINISTRATORS
+
+PROJECT ARCHEITECTURE
+      kisan-saathi/
+│
+├── public/
+│   ├── icons/
+│   ├── images/
+│   ├── manifest.webmanifest
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── hooks/
+│   ├── context/
+│   ├── services/
+│   ├── utils/
+│   ├── types/
+│   ├── assets/
+│   └── ...
+│
+├── server/
+│   ├── server.ts
+│   ├── routes/
+│   ├── controllers/
+│   ├── services/
+│   └── ...
+│
+├── data/
+│   └── procurement_pg_db.json
+│
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+├── .env.example
+├── .gitignore
+├── LICENSE
+└── README.md
+
+Smart Slot Reminder & Procurement Turn Alert System
+             🌾 FARMER
+                 │
+                 ▼
+          🌱 SELECT CROP
+                 │
+                 ▼
+           💰 VIEW MSP
+                 │
+                 ▼
+          📦 ENTER QUANTITY
+                 │
+                 ▼
+       📍 FIND SUITABLE MANDI
+                 │
+                 ▼
+          📅 BOOK SLOT
+                 │
+                 ▼
+          🎫 GET TOKEN
+                 │
+                 ▼
+       📱 RECEIVE REMINDER
+                 │
+                 ▼
+        🚜 TRACK LIVE QUEUE
+                 │
+                 ▼
+          🔊 TURN ALERT
+                 │
+                 ▼
+          🏪 CHECK-IN
+                 │
+                 ▼
+         🧪 QUALITY CHECK
+                 │
+                 ▼
+          ⚖️ WEIGHBRIDGE
+                 │
+                 ▼
+         💵 PAYOUT CALCULATION
+                 │
+                 ▼
+          🧾 DIGITAL J-FORM
+                 │
+                 ▼
+              ✅ DONE
