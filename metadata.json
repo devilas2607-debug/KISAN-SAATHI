@@ -1,0 +1,6 @@
+{
+  "name": "Smart Slot Reminder & Procurement Turn Alert System",
+  "description": "Smart procurement notification system with slot booking confirmation, SMS reminders, live queue turn alerts, PWA phone push alerts, audible turn alarms, and operator integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
